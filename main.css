@@ -1,0 +1,82 @@
+body {
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+a {
+	font-size: 20px;
+	color: #757574;
+}
+a:hover {
+	text-decoration: none;
+	color: #757574;
+}
+
+li {
+	margin: 15px !important;
+}
+
+h3 {
+	text-align: left !important;
+	margin: 15px 0px 0px 25px;
+}
+
+p {
+	margin: 20px 50px 20px 50px;
+}
+
+button {
+	margin: 10px;
+}
+
+.jumbotron {
+	background-color: rgba(230, 230, 230,0.5);
+	border-radius: 25px !important;
+}
+
+.background-image {
+	position: fixed;
+  left: 300;
+  right: 300;
+  z-index: 1;
+  display: block;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png");
+  width: 2000px;
+  height: 1500px;
+
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.list-group-item {
+	background-color: rgba(255, 255, 255,0.5);
+	border-radius: 15px;
+}
+
+.container {
+	padding: 10%;
+	text-align: center;
+}
+.random {
+	padding: 25px;
+}
+
+.search-form {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.link {
+	margin-left: 67%;
+}
